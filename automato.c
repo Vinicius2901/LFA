@@ -129,6 +129,6 @@ int main() {
         }
         printf("Deseja continuar? (Digite s para continuar ou n para nao continuar)\n");
         scanf(" %c", &opt );
-    } while( opt != 'n' || opt != 'N' );
+    } while( opt != 'n' && opt != 'N' );
     return 0;
 }
